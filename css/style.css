@@ -1,0 +1,175 @@
+:root{
+    --negro: #000000;
+    --amarillo: #fecd61;
+    --blanco: #ffffff;
+
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--blanco);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+/* --------------------------------------------------  header*/
+.contenedor{
+    width: 90%;
+    margin:auto;
+    justify-content: center;
+    align-content: center;
+
+}
+
+header{
+    padding: 45px 0;
+    
+}
+
+header .contenedor{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'ink free', sans-serif;
+    background-color: var(--amarillo);
+    padding: 1.2rem 1.2rem;
+
+
+}
+
+header .logo{
+   max-width: 100%;
+
+}
+
+header nav a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+header nav a:hover,
+header nav a.activo {
+    color: rgb(255, 255, 255);
+}
+.info{
+    color: rgba(170, 170, 170, 0);
+    text-decoration: none; 
+}
+
+ /*------------------Main--------------*/
+main{
+    padding: 5px;
+    
+
+}
+
+main .fotoperfil{
+    max-width: 130%;
+    align-items: center;
+}
+main .letrero {  
+    margin-left: 70px;
+    margin-top: 15px;
+    font-family: braga;
+    margin: auto;}
+
+main .profesional{
+    margin-left: 70px;
+     margin-right: 70px ;
+     margin-top: 45px;
+
+}
+   
+ .caja{
+     position: relative;
+     display: inline-block;
+     margin-left: 70px;
+     margin-right: 70px ;
+ }
+ .texto1{
+     position: absolute;
+     margin-top: -420px;
+     margin-left: 350px;
+     margin-right: 70px;
+     font-family: braga;
+     font-size: 30px;
+     color: #000000;
+ }
+ .texto2{
+    position: absolute;
+    margin-top: -320px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family: ink free;
+    font-size: 20px;
+    color: #000000;
+}
+.texto3{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family: "braga";
+    font-size: 20px;
+    color: #000000;
+    width: 1200px;
+}
+.habilidades{
+ 
+    margin-top: -10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.blandas{
+    justify-content: space-between;
+    align-items: center;
+}
+.texto4{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family: "braga";
+    font-size: 20px;
+    color: #000000;
+    width: 1200px;
+}
+/*----------------------------------boton descargar --------------------------------*/
+.button {
+    
+    background-color: rgb(254, 205, 97);
+    border-radius: 30px;
+    font-size: 25px;
+    padding: 1rem 2.5rem;
+    color: #ffffff;
+    font-family: 'ink free', sans-serif;
+    font-weight: 900;
+    border: none;
+    margin-left: 9px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: .3s ease all;
+    
+}
+
+.button:hover:before {
+  width: 47%;
+  }
+
+/* ------------------------------Fotter---------------------------------*/
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color:#000000;
+    text-align: center;
+    align-content: flex-start;
+}
+@media (max-widht:600px){
+    display: none;
+}
